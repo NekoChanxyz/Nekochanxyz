@@ -1,0 +1,292 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Phoenix</title>
+    <link rel="stylesheet" href="asset/css/portfolio.css">
+    <link rel="shortcut icon" href="asset/image/Circle-A_red.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/931bb67421.js" crossorigin="anonymous"></script>
+</head>
+<body onload="load_images();">
+    <div id="navigation">
+        <div class="logo jump">
+            <a href="#"><img src="asset/image/Circle-A.svg" alt="" width="50px"></a>
+        </div>  
+
+        <div class="nav">
+            <ol>
+                <li><a class="jump" href="#aboutme">About</a></li>
+                <li><a class="jump" href="#work">Work</a></li>
+                <li><a class="jump" href="#contact">Contact</a></li>
+                <li class="resume"><a href="https://drive.google.com/file/d/17FphL1uyp7q7e8ZHpVyvzg-aFW2RQwk_/view?usp=sharing">Resume</a></li>
+            </ol>
+        </div>
+    </div>
+
+    <div id="bodypart">
+        <div id="introduction">
+            <p class="black bold" style="font-size: 18px; line-height: 22px; padding-top: 25px;">Hi, my name is</p>
+            <p class="white bold" style="font-size: 60px; line-height: 73px; padding-top: 15px;">Alex Phoenix.</p>
+            <p class="black bold a" style="font-size: 60px; line-height: 73px; padding-top: 15px;">This is my portfolio.</p>
+            <p class="bwhite normal" style="font-size: 18px; line-height: 22px; padding-top: 15px; max-width: 700px;">I'm a student at <a href="hnmu.edu.vn" class="black bold uhover" style="text-decoration: none;">Hanoi Metropolitan University</a>. My major is Information Technology. Currently, I'll upload my works here. As soon as my skills get better, this will be my completed portfolio.</p>
+            <a href="#work" class="black bold button jump" style="margin-top: 50px;">Check out my works!</a>
+        </div>
+    
+        <div id="aboutme">
+            <div class="ordinal">
+                <div class="num">
+                    <span class="black bold">01. </span>
+                </div>
+    
+                <div class="text">
+                    <span class="white bold">About Me</span>
+                </div>
+    
+                <div class="line"></div>
+            </div>
+    
+            <div class="content">
+                <div class="text">
+                    <p class="bwhite normal" style="margin-top: 0;">Hello! My name is Alex and I enjoy creating things from scratch using code. My interest started back in 2018 when I played <a href="https://www.minecraft.net/en-us"><span class="black bold uhover">Minecraft</span></a>. A few months after I first playing it, I discover a whole new thing in that game - Command. And that's when I took my first step on the path of <span class="black bold">Information Technology</span></p>
+    
+                    <p class="bwhite normal">Fast forward to today, I had the opportunity to study the major that I always dreamed of - <span class="black bold">Information Technology</span>. I used to have experience in <span class="black bold">C++</span> and now i am trying to learn <span class="black bold">HTML/CSS</span>. There's nothing in my portfolio yet, but I hope that one day, when I look back, this portfolio will show me how long my journey has come.</p>
+    
+                    <p class="bwhite normal">First of all, this is where I upload my assignments. I hope that in the future, this will be the place to upload my big projects!</p>
+                </div>
+    
+                <div></div>
+    
+                <div class="img">
+                    <img src="asset/image/profile_pic2.jpg" alt="" id="pics">
+                    <div id="next" onclick="next();">&#10095;</div>
+                    <div id="back" onclick="back();">&#10094;</div>
+                </div>
+            </div>
+        </div>
+
+        <div id="work">
+            <div class="ordinal">
+                <div class="num">
+                    <span class="black bold">02. </span>
+                </div>
+    
+                <div class="text1 white bold">
+                    <span class="white bold">Some Things I'm Working On</span>
+                </div>
+    
+                <div class="line"></div>
+            </div>
+
+            <div class="grid">
+                <a href="youtube.com">
+                    <div class="item">
+                        <div class="bighead">
+                            <div class="head">
+                                <img src="asset/image/folder_black.png" alt="" class="file" width="45px">
+        
+                                <img src="asset/image/link_black.png" alt="" width="30px" style="float: right;">
+                            </div>
+        
+                            <div class="text">
+                                <p class="texthead black bold">HTML/CSS Assignments</p>
+                                <p class="textcontent cblack normal">Taught by Ms. Phuong - my lovely teacher, this subject brought me a lot of new experiences, although the number of assignments gave me quite a headache.</p>
+                            </div>
+                        </div>
+                
+                        <div class="foot">
+                            <p class="bblack normal">Last Updated:&nbsp;&nbsp;&nbsp;5:08PM 10/10/2022</p>
+                        </div>
+                    </div>
+                </a>
+                
+                <a href="#">
+                    <div class="item">
+                        <div class="bighead">
+                            <div class="head">
+                                <img src="asset/image/folder_black.png" alt="" class="file" width="45px">
+        
+                                <img src="asset/image/link_black.png" alt="" width="30px" style="float: right;">
+                            </div>
+        
+                            <div class="text">
+                                <p class="texthead black bold">C/C++ Assignments</p>
+                                <p class="textcontent cblack normal">Taught by Mr. Tuan, this subject reminds me of the old days, when I just broke up with my ex, I worked day and night to learn this subject.</p>
+                            </div>
+                        </div>
+                
+                        <div class="foot">
+                            <p class="bblack normal">Last Updated:&nbsp;&nbsp;&nbsp;5:08PM 10/10/2022</p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#">
+                    <div class="item">
+                        <div class="bighead">
+                            <div class="head">
+                                <img src="asset/image/folder_black.png" alt="" class="file" width="45px">
+        
+                                <img src="asset/image/link_black.png" alt="" width="30px" style="float: right;">
+                            </div>
+        
+                            <div class="text">
+                                <p class="texthead black bold">GameMaker Studio 2</p>
+                                <p class="textcontent cblack normal">I am currently self-working on this game-engine. I haven't gotten anywhere yet, but at least I tried, right?</p>
+                            </div>
+                        </div>
+                
+                        <div class="foot">
+                            <p class="bblack normal">Last Updated:&nbsp;&nbsp;&nbsp;5:08PM 10/10/2022</p>
+                        </div>
+                    </div>
+                </a>
+                
+                <a href="#">
+                    <div class="item">
+                        <div class="bighead">
+                            <div class="head">
+                                <img src="asset/image/folder_black.png" alt="" class="file" width="45px">
+        
+                                <img src="asset/image/link_black.png" alt="" width="30px" style="float: right;">
+                            </div>
+        
+                            <div class="text">
+                                <p class="texthead black bold">Figma</p>
+                                <p class="textcontent cblack normal">There used to be a lot of projects that I worked on with this software, but now I'm pretty lazy to upload them. I will try to upload them when I have free time:)</p>
+                            </div>
+                        </div>
+                
+                        <div class="foot">
+                            <p class="bblack normal">Last Updated:&nbsp;&nbsp;&nbsp;5:08PM 10/10/2022</p>
+                        </div>
+                    </div>
+                </a>
+                
+                <a href="https://youtu.be/iUVNspaiBAo">
+                    <div class="item">
+                        <div class="bighead">
+                            <div class="head">
+                                <img src="asset/image/folder_black.png" alt="" class="file" width="45px">
+        
+                                <img src="asset/image/link_black.png" alt="" width="30px" style="float: right;">
+                            </div>
+        
+                            <div class="text">
+                                <p class="texthead black bold">Ughhh...</p>
+                                <p class="textcontent cblack normal">I ran out of things to tell you, see you in the next few months when I discover new things!</p>
+                            </div>
+                        </div>
+                
+                        <div class="foot">
+                            <p class="bblack normal">Last Updated:&nbsp;&nbsp;&nbsp;5:08PM 10/10/2022</p>
+                        </div>
+                    </div>
+                </a>
+                
+                <a href="https://youtu.be/rHKCWKZA6RI">
+                    <div class="item">
+                        <div class="bighead">
+                            <div class="head">
+                                <img src="asset/image/folder_black.png" alt="" class="file" width="45px">
+        
+                                <img src="asset/image/link_black.png" alt="" width="30px" style="float: right;">
+                            </div>
+        
+                            <div class="text">
+                                <p class="texthead black bold">Im'ma go to sleep:)</p>
+                                <p class="textcontent cblack normal">Byeeee..</p>
+                            </div>
+                        </div>
+                
+                        <div class="foot">
+                            <p class="bblack normal">Last Updated:&nbsp;&nbsp;&nbsp;5:08PM 10/10/2022</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div id="contact">
+            <p class="num black bold">
+                03. What’s Next?
+            </p>
+
+            <p class="getintouch white bold">
+                Get in Touch
+            </p>
+
+            <p class="description white normal">
+                Although I’m not currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+            </p>
+
+            <a href="https://www.facebook.com/alexphoenix.45/" class="button black bold">Say Hello</a>
+        </div>
+
+        <div id="footer">
+            <p class="white normal">Designed & Built by Alex Phoenix</p>
+            <div></div>
+        </div>
+    </div>
+
+</body>
+<script>
+    const nav = document.querySelector("#navigation");
+    let lastScrollY = window.scrollY;
+
+    window.addEventListener("scroll", () => {
+        if (lastScrollY < window.scrollY) {
+        nav.classList.add("nav--hidden");
+        } else {
+        nav.classList.remove("nav--hidden");
+        }
+    lastScrollY = window.scrollY;
+    });
+
+    window.addEventListener("scroll", () => {
+        if (lastScrollY != 0) {
+        nav.classList.add("nav--top");
+        } else {
+        nav.classList.remove("nav--top");
+        }
+    lastScrollY = window.scrollY;
+    });
+
+    var img = [];
+    var curimg = 2;
+    function load_images() {
+        for (i = 2; i < 6; i++) {
+            img[i] = new Image();
+            img[i].src = "asset/image/profile_pic" + i + ".jpg";
+        }
+    }
+
+    function next() {
+        if (curimg < img.length - 1) {
+            curimg++;
+        // setTimeout(next(), 500);
+        }
+        if (curimg == img.length-1) {
+            curimg = 2;
+        }
+        document.getElementById("pics").src = img[curimg].src;
+    }            
+
+    
+    function back() {
+        if (curimg > 2) {
+            curimg--;
+        // setTimeout(back(), 500);
+        }
+        if (curimg == 2) {
+            curimg = img.length-1;
+        }
+        document.getElementById("pics").src = img[curimg].src;
+    }
+</script>
+</html>

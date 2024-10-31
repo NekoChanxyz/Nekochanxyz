@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NekoNekoNeko</title>
+    <link rel="stylesheet" href="asset/css/portfolio.css">
+    <link rel="shortcut icon" href="asset/image/463219845_1059320595853055_8250291491724929334_n.jpg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/931bb67421.js" crossorigin="anonymous"></script>
+    <style>
+        
+        
+    </style>
+</head>
+<body style="background-color: #2c2c2c; color: #f5f5f5;" onload="load_images(); startAnimations();">
+    <div class="decorative-arc"></div>
+    <div id="navigation" style="background: #56014a;">
+        <div class="logo jump">
+            <a href="#"><img src="asset/image/463219845_1059320595853055_8250291491724929334_n.jpg" alt="" width="50px"></a>
+        </div>
+
+        <div class="nav">
+            <ol>
+                <li><a class="jump" href="#aboutme" style="color: #FFC107;">About</a></li>
+                <li><a class="jump" href="#work" style="color: #FFC107;">Work</a></li>
+                <li><a class="jump" href="#contact" style="color: #FFC107;">Contact</a></li>
+                <li class="resume"><a href="https://youtu.be/ZHgyQGoeaB0?si=l4CJsALtlzL51plZ" style="color: #FFC107;">Resume</a></li>
+            </ol>
+        </div>
+    </div>
+
+    <div id="bodypart">
+        <div id="introduction">
+            <p class="black bold" style="font-size: 28px; line-height: 22px; padding-top: 25px;">Chao xìnnn, tớ là</p>
+            <p class="white bold" style="font-size: 60px; line-height: 73px; padding-top: 15px;">Nguyễn Bảo Quốc.</p>
+            <p class="black bold a" style="font-size: 40px; line-height: 73px; padding-top: 15px;">Và đây là một chút về tớ.</p>
+            <p class="bwhite normal" style="font-size: 18px; line-height: 22px; padding-top: 15px; max-width: 700px;">
+                Tớ là sinh viên đang theo học tại <a href="https://hnmu.edu.vn" class="black bold uhover" style="text-decoration: none;">Đại học thủ đô Hà Nội</a>. 
+                Chuyên nghành chính của tớ là Công nghệ thông tin. Và dưới đây là phần giới thiệu về tớ và các thành tích tớ đã đạt được từ năm nhất đến bây giờ (Không có T.T).
+            </p>
+            <a href="#work" class="black bold button jump" style="margin-top: 50px; background-color: #FF5722; color: #FFFFFF;">Sờ kíp ơ bao mi</a>
+        </div>
+        
+        <div id="aboutme">
+            <div class="ordinal">
+                <div class="num">
+                    <span class="black bold">01. </span>
+                </div>
+
+                <div class="text">
+                    <span class="black bold">About Me</span> 
+                </div>
+
+                <div class="line"></div>
+            </div>
+
+            <div class="content">
+                <div class="text">
+                    <p class="bwhite normal" style="margin-top: 0;">
+                        Hí. tớ là Quốc, có thể gọi tắt là Neko (Bởi vì tớ rất yêu mèo nên thích để vậy). Tớ khá là yêu thích nghành CNTT của mình và cũng thích design một chút. 
+                        Thật sự thì đây không phải là chuyên nghành trong bản thân tớ. Bởi vì tớ là một người theo học khối C và chuyên nghành lẫn ước mơ tớ mong muốn là sư phạm sử và trở thành một thầy giáo dạy môn Lịch Sử để có thể truyền cảm hứng đến tất cả mọi người về kiến thức lẫn sự hay ho về lịch sử...Và mục đích chính vẫn là truyền đạt kiến thức tới tất cả dân tộc Việt Nam để chúng ta luôn nhớ về <a class="black bold uhover">CỘI NGUỒN và LỊCH SỬ</a> mà chúng ta đã từng đi và trải qua^^.
+                        Và rồi chuyện gì đến cũng sẽ đến, bằng một cách nào đó tớ đã trà trộn được vào nghành CNTT tớ đang theo học hiện tại này:)). Tuy rất khó đối với một người theo khối C như tớ nhưng tớ vẫn sẽ cố gắng để có thể theo kịp các bạn mặc dù có thể chậm hơn một chút... 
+                    </p>
+
+                    <p class="bwhite normal">
+                        Hiện giờ, tớ đang cố gắng học C++, HTML/CSS. Tuy bây giờ tớ chưa có dự án hay thành tựu gì đặc sắc.
+                    </p>
+
+                    <p class="bwhite normal">Nhưng mong rằng nơi đây sẽ là nơi chứa những giấc mơ và hoài bão của tớ trong tương lai!</p>
+                </div>
+
+                <div></div>
+
+                <div class="img">
+                    <img src="asset/image/phela.jpg" alt="" id="pics">
+                    <div id="next" onclick="next();">❯</div>
+                    <div id="back" onclick="back();">❮</div>
+                </div>
+            </div>
+        </div>
+
+        <div id="work">
+            <div class="ordinal">
+                <div class="num">
+                    <span class="black bold">02. </span>
+                </div>
+
+                <div class="text1">
+                    <span class="black bold">Some Things I'm Working On</span> 
+                </div>
+
+                <div class="line"></div>
+            </div>
+
+            <div class="grid">
+                <a href="">
+                    <div class="item">
+                        <div class="bighead">
+                            <div class="head">
+                                <img src="asset/image/folder_black.png" alt="" class="file" width="45px">
+                                <img src="asset/image/link_black.png" alt="" width="30px" style="float: right;">
+                            </div>
+                            <div class="text">
+                                <p class="texthead black bold">HTML/CSS </p>
+                                <p class="textcontent cblack normal">Tớ đang học thiết kế web của thầy Phương. Những gì thầy chỉ dạy tuy khó nhưng mà có lẽ đó là những sự tâm huyết mà thầy muốn dành cho sinh viên của mình.</p>
+                            </div>
+                        </div>
+                        <div class="foot">
+                            <p class="bblack normal">Last Updated: 30/10/2024</p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#">
+                    <div class="item">
+                        <div class="bighead">
+                            <div class="head">
+                                <img src="asset/image/folder_black.png" alt="" class="file" width="45px">
+                                <img src="asset/image/link_black.png" alt="" width="30px" style="float: right;">
+                            </div>
+                            <div class="text">
+                                <p class="texthead black bold">C/C++ </p>
+                                <p class="textcontent cblack normal">Được dạy bởi thầy Tuấn. Có lẽ không ai là không thích được ngồi nghe thầy giảng dạy cả. Từ tính cách đến phong cách dạy có thể thấy thầy Tuấn là một người thầy hiền lành và tận tâm như nào.</p>
+                            </div>
+                        </div>
+                        <div class="foot">
+                            <p class="bblack normal">Last Updated: 30/10/2024</p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#">
+                    <div class="item">
+                        <div class="bighead">
+                            <div class="head">
+                                <img src="asset/image/folder_black.png" alt="" class="file" width="45px">
+                                <img src="asset/image/link_black.png" alt="" width="30px" style="float: right;">
+                            </div>
+                            <div class="text">
+                                <p class="texthead black bold">Phê La</p>
+                                <p class="textcontent cblack normal">Hì, vì là sinh viên nên tớ cũng cần thu nhập cho riêng mình và tớ chọn Phê La là điểm dừng chân tạm thời của mình.</p>
+                            </div>
+                        </div>
+                        <div class="foot">
+                            <p class="bblack normal">Last Updated: 30/10/2024</p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#">
+                    <div class="item">
+                        <div class="bighead">
+                            <div class="head">
+                                <img src="asset/image/folder_black.png" alt="" class="file" width="45px">
+                                <img src="asset/image/link_black.png" alt="" width="30px" style="float: right;">
+                            </div>
+                            <div class="text">
+                                <p class="texthead black bold">AI/PTS</p>
+                                <p class="textcontent cblack normal">Đây có thể là khoảng thời gian vui vẻ của tớ bởi vì tớ tìm thấy niềm vui của mình khi được thỏa sức sáng tạo trong Illustrator và Photoshop.^^</p>
+                            </div>
+                        </div>
+                        <div class="foot">
+                            <p class="bblack normal">Last Updated: 30/10/2024</p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="">
+                    <div class="item">
+                        <div class="bighead">
+                            <div class="head">
+                                <img src="asset/image/folder_black.png" alt="" class="file" width="45px">
+                                <img src="asset/image/link_black.png" alt="" width="30px" style="float: right;">
+                            </div>
+                            <div class="text">
+                                <p class="texthead black bold">Nuôi con...</p>
+                                <p class="textcontent cblack normal">"Con" ở đây ý tớ là mèo nha=)))</p>
+                            </div>
+                        </div>
+                        <div class="foot">
+                            <p class="bblack normal">Last Updated: 30/10/2024</p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="">
+                    <div class="item">
+                        <div class="bighead">
+                            <div class="head">
+                                <img src="asset/image/folder_black.png" alt="" class="file" width="45px">
+                                <img src="asset/image/link_black.png" alt="" width="30px" style="float: right;">
+                            </div>
+                            <div class="text">
+                                <p class="texthead black bold">Chắc là như vậy thui!</p>
+                                <p class="textcontent cblack normal">See yaaa!</p>
+                            </div>
+                        </div>
+                        <div class="foot">
+                            <p class="bblack normal">Last Updated: 30/10/2024</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div id="contact">
+            <p class="num black bold">03. Điều gì tiếp theo?</p>
+
+            <p class="getintouch white bold">...</p> 
+
+            <p class="description num black bold">
+                Hãy chờ đón ở tương lai nhaaa kiki!
+            </p>
+
+            <a href="https://www.facebook.com/nbq0517z/?locale=vi_VN" class="button black bold" style="background-color: #FF5722; color: #FFFFFF;">Ấn đi!</a>
+        </div>
+
+        <div id="footer">
+            <p class="white normal">NekoChan</p>
+        </div>
+    </div>
+
+    <div id="bats"></div>
+    <div id="pumpkins"></div>
+
+    <script>
+        function load_images() {"asset/image/pngtree-halloween-pumpkin-vector-png-image_8644067.png"
+            // Tải hình ảnh nếu cần
+        }
+
+        function startAnimations() {
+            setInterval(createBat, 2000); // Tạo dơi mỗi 2 giây
+            setInterval(createPumpkin, 3000); // Tạo bí ngô mỗi 3 giây
+        }
+
+        // Chức năng chuyển đổi ảnh
+        let currentImageIndex = 0; // Chỉ số ảnh hiện tại
+        const images = [
+            "asset/image/phela.jpg",
+            "asset/image/mck.jpg", // Thay bằng đường dẫn của ảnh thứ 2
+           
+        ];
+
+        function updateImage() {
+            const imgElement = document.getElementById("pics");
+            imgElement.src = images[currentImageIndex]; // Cập nhật ảnh hiện tại
+        }
+
+        function next() {
+            currentImageIndex = (currentImageIndex + 1) % images.length; // Tăng chỉ số và quay vòng nếu cần
+            updateImage(); // Cập nhật ảnh
+        }
+
+        function back() {
+            currentImageIndex = (currentImageIndex - 1 + images.length) % images.length; // Giảm chỉ số và quay vòng nếu cần
+            updateImage(); // Cập nhật ảnh
+        }
+        
+        function createBat() {
+            const bat = document.createElement('img');
+            bat.src = "asset/image/pngtree-halloween-bat-png-image_6134639.png"; // Đường dẫn đến hình ảnh dơi
+            bat.className = 'bat';
+            document.getElementById('bats').appendChild(bat);
+
+            const xStart = Math.random() * window.innerWidth; // Tọa độ x ngẫu nhiên
+            bat.style.left = `${xStart}px`;
+            bat.style.top = `${Math.random() * 100}px`; // Tọa độ y ngẫu nhiên
+
+            // Hiệu ứng bay
+            const animationDuration = Math.random() * 3 + 2; // Thời gian bay ngẫu nhiên
+            bat.style.display = "block"; 
+            bat.animate([{transform: 'translateY(0)'}, {transform: `translateY(${Math.random() * 50}px) translateX(${Math.random() > 0.5 ? 200 : -200}px)`},
+                         {transform: 'translateY(0)'}], {
+                duration: animationDuration * 1000,
+                easing: 'ease-in-out',
+                iterations: 1
+            });
+
+            setTimeout(() => {
+                bat.remove(); // Xóa dơi sau khi hoàn thành hoạt ảnh
+            }, animationDuration * 1000);
+        }
+
+        function createPumpkin() {
+            const pumpkin = document.createElement('img');
+            pumpkin.src = "asset/image/pngtree-halloween-pumpkin-vector-png-image_8644067.png"; // Đường dẫn đến hình ảnh bí ngô
+            pumpkin.className = 'pumpkin';
+            document.getElementById('pumpkins').appendChild(pumpkin);
+
+            const startPos = Math.random() * window.innerWidth; // Tọa độ x ngẫu nhiên
+            pumpkin.style.left = `${startPos}px`;
+            pumpkin.style.bottom = "-80px"; // Bắt đầu dưới màn hình
+
+            // Hiệu ứng bay lên
+            const animationDuration = Math.random() * 3 + 2; // Thời gian bay ngẫu nhiên
+            pumpkin.animate([{transform: 'translateY(0)'}, {transform: 'translateY(-300px)'}], {
+                duration: animationDuration * 1000,
+                easing: 'ease-in-out',
+                iterations: 1
+            });
+
+            setTimeout(() => {
+                pumpkin.remove(); // Xóa bí ngô sau khi hoàn thành hoạt ảnh
+            }, animationDuration * 1000);
+        }
+    </script>
+</body>
+</html>
